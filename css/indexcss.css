@@ -1,0 +1,402 @@
+body{
+        background-image: url("../img/aaa.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        font-family: "Adobe Caslon Pro";
+        overflow-x: hidden;
+      }  
+      #return-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      display: block;
+      text-decoration: none;
+      display: none;
+      -webkit-transition: all 0.3s linear;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+      }
+      #return-to-top i {
+          margin: 0;
+          position: relative;
+          left: 16px;
+          top: 13px;
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -ms-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+      }
+      #return-to-top:hover i {
+          top: 5px;
+      }
+
+      #backtoback{
+        color: #808080
+      }
+      #backtoback:hover{
+        color: #000000;
+      }
+
+      #donate{
+        background:linear-gradient(to bottom,#cccccc,white);
+        color: black;
+        display: inline-block;
+         padding:5%;
+          border-radius: 30px 10px 30px 10px;
+      }
+      #donate:hover{
+        color: white;
+        transition: 1s;
+        background:linear-gradient(to bottom,black,#cccccc);
+        box-shadow:5px 2px 10px #4d4d4d;
+        cursor: pointer;
+      }
+      #donate:focus{
+        outline: none;
+      }
+
+      .nav1{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left :0;
+        padding: 1.5%;
+        background-color: rgba(0,0,0,0.1);
+        border-bottom: 1px solid white;
+        transition: 0.3s;
+      }
+
+      .scrolled{
+       background-color: rgba(0,0,0,0.8);
+        border-bottom: 1px solid white;
+        padding: 0px 20px 0px 10px;
+        transition: 0.3s;
+      }
+      #head{
+        list-style-type: none;
+      }
+      #head h2{
+        font-size: 50px;
+      }
+      #head li{
+        display: block-inline;
+        margin-top: 3%;
+      }
+      #head li p{
+        font-size: 17px;
+      }
+
+      #headtittle{
+          white-space: nowrap;
+          overflow: hidden;
+          width: 85em;
+          -webkit-animation: type 2s steps(60, end);
+        }
+        @-webkit-keyframes type{ 
+          from { width: 0; } 
+        } 
+
+        #signupbtn{
+        color: black;
+      }
+      #signupbtn:hover{
+        color: white;
+        box-shadow:2px 2px 15px #4d4d4d;
+        cursor: pointer;
+        border: 1px solid white;
+        background-color: black;
+      }
+
+        #tittleh1{
+          font-size: 55px
+        }
+
+        #section13{
+          background-color: rgba(0,0,0,0.7);
+          padding-top: 3%;
+          padding-bottom: 3%;
+          margin-top: -1.8%;
+        }
+
+        #textslide{
+          text-align: center;
+          font-size: 50px;
+        }
+
+@media only screen and (max-width: 500px){
+        #headtittle{
+          width: 100%;
+          -webkit-animation: tyhg 3s steps(60, end);
+          margin-top: 20%;
+        }
+        #tittleh1{
+          font-size: 30px;
+        }
+        #signupbtn{
+          margin: 0;
+        }
+        #section13{
+          padding-top: 5%;
+          margin-top: -7%;
+        }
+        #textslide{
+          font-size: 40px;
+        }
+        .nav1{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left :0;
+        background-color: rgba(0,0,0,0.9);
+        border-bottom: 1px solid white;
+        padding: 0px 20px 0px 10px;
+        transition: 0.3s;
+      }
+
+    }
+
+
+    /* width */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background:gray; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: black; 
+}
+
+@media screen and (max-width: 700px){
+      .modal-title,.modal-body{
+        margin:0px;
+        padding: 0px;
+      }
+
+    }
+
+
+    .btn12{
+         margin: 2px;
+        background-color: black;
+        color: white;
+  }
+
+
+  #icontact li a {
+        color: black;
+      }
+      #icontact li a:hover{
+        color: white;
+      }
+      
+
+.form-control677 {
+  box-shadow: none !important;
+  border: 2px solid #444;
+  background: transparent;
+  font-family: "Montserrat", arial, sans-serif;
+}
+.form-control677:hover, .form-control677:focus, .form-control677:active {
+  outline: none;
+  box-shadow: none !important;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+}
+
+#sendmassage:hover{
+  background-color: black;
+  color: white;
+}
+
+#ulcontact{
+  list-style-type: none;
+}
+#ulcontact li{
+  list-style-type: none;
+  display: inline-block;
+}
+#ulcontact li i,p{
+  list-style-type: none;
+  display: inline-block;
+}
+
+#firstchilde{
+  margin-left: 2%;
+}
+
+#footera{
+  color: gray;
+}
+#footera:hover{
+  color: lightblue;
+  text-decoration: none;
+}
+
+#backOfInfo{
+      height: 70%;
+      width: 60%;
+      position: relative;
+      top: 30%;
+    }
+    #wrapper-about{
+      height: 600px;
+      width: 100%;
+      margin: auto;
+
+    }
+    .info{
+      font-size: 15px;
+      height: 100px;
+      width: 100px;
+      border: solid 1px black;
+      background-color: white;
+      text-align: center;
+      font-family: Arial;
+      cursor: pointer;
+      color: black;
+      border-radius: 5px;
+    }
+    #sport{
+      position: absolute;
+      bottom: 25.5%;
+      left: 70%;
+    }
+    #favorite{
+      position: absolute;
+      bottom: 50%;
+      left: 70%;
+    }
+    #education{
+      position: absolute;
+      bottom: 74.5%;
+      left: 70%;
+    }
+    #home{
+      position: absolute;
+      bottom: 99%;
+      left: 70%;
+    }
+    #skill{
+      position: absolute;
+      bottom: 50%;
+      right: -37.5%;
+    }
+    #name{
+      position: absolute;
+      bottom: 74.5%;
+      right: -37.5%;
+    }
+    #contact{
+      position: absolute;
+      bottom: 50%;
+      left: 36%;
+    }
+    #game{
+      position: absolute;
+      bottom: 74.5%;
+      left: 36%;
+    }
+    #cti{
+      position: absolute;
+      bottom: 50%;
+      left: 2%;
+    }
+    #div-aboutPage{
+      height: 70%;
+      width: 90%;
+      font-weight: bold;
+      color: black;
+      font-size: 20px;
+      margin: auto;
+    }
+    .info:hover{
+      background-color: gray;
+    }
+    #i{
+      color:black;
+      font-size:40px;
+    }
+    #i:hover{
+      color:  white;
+    }
+    #aboutUS{
+      margin: auto;
+      display: none;
+    }
+    .ourimg{
+      height: 140px;
+      width: 140px;
+    }
+    #divforparagragh{
+      height: 370px;
+      width: 95%;
+      margin-right: 10%;
+      background-color: white;
+      color: black;
+      border-radius: 10px;
+    }
+    .inputfiled{
+        outline: 0px;
+        border: 0px;
+      }
+      .inputfiled{
+        border-bottom: 1px solid gray;
+      }
+      .inputfiled:focus{
+        border-bottom: 1px solid red;
+      }
+      
+      #Registrision{
+        padding-top: 10%;
+      }
+      #Registrision a{
+        text-decoration: none;
+        color: gray;
+      }
+      #Registrision a:hover {
+        text-decoration: none;
+        color: black;
+      }
+
+      
+
+.input87{
+        outline: 0px;
+        border: 0px;
+        border-bottom: 1px solid gray;
+      } 
+      .input87:focus{
+        border-bottom: 1px solid red;
+      } 
+      
+      
+      #Register76{
+        padding-top: 10%;
+      }
+      #Register76 a {
+        text-decoration: none;
+        color: gray;
+      }
+      #Register76:hover {
+        text-decoration: none;
+        color: black;
+      }
